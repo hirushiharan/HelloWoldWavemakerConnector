@@ -10,7 +10,7 @@ import org.springframework.core.io.Resource;
 import com.wavemaker.runtime.connector.configuration.ConnectorConfigurationBase;
 
 @Configuration
-@ComponentScan(basePackages = "com.wavemaker.helloworld")
+@ComponentScan(basePackages = "com.nermamobileappcordova.helloworld")
 public class HelloWorldConnectorConfiguration extends ConnectorConfigurationBase {
 
 

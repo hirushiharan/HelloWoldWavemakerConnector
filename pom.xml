@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.wavemaker.connector</groupId>
+    <groupId>com.nermamobileappcordova</groupId>
     <artifactId>hello-world-wavemaker-connector</artifactId>
     <version>1.0</version>
 
@@ -47,7 +47,7 @@
                 <version>${wavemaker-version}</version>
             </dependency>
             <dependency>
-                <groupId>com.wavemaker.connector</groupId>
+                <groupId>com.nermamobileappcordova</groupId>
                 <artifactId>hello-world-wavemaker-connector-api</artifactId>
                 <version>${project.version}</version>
             </dependency>
@@ -55,17 +55,6 @@
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>4.13</version>
-            </dependency>
-            <dependency>
-                <groupId>com.wavemaker</groupId>
-                <artifactId>wavemaker-connector-api</artifactId>
-                <version>1.0.0</version>
-            </dependency>
-            <dependency>
-                <groupId>com.wavemaker</groupId>
-                <artifactId>wavemaker-connector-impl</artifactId>
-                <version>1.0.0</version>
-                <scope>runtime</scope>
             </dependency>
 
         </dependencies>

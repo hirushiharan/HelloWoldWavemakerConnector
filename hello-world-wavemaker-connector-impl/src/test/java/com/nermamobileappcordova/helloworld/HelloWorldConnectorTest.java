@@ -1,4 +1,4 @@
-package com.wavemaker.helloworld;
+package com.nermamobileappcordova.helloworld;
 
 import org.junit.Assert;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.beans.factory.annotation.Autowired;
-import com.wavemaker.helloworld.HelloWorldConnector;
+import com.nermamobileappcordova.helloworld.HelloWorldConnector;
 
 
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -19,9 +19,6 @@ public class HelloWorldConnectorTest {
 
     @Test
     public void helloConnector(){
-        HelloWorldConnector connector = new HelloWorldConnectorImpl();
-        String result = connector.helloConnector();
-        Assert.assertEquals("Hey, this is Hello World connector", result);
+        Assert.assertEquals("Hey, this is Hello World connector", connectorInstance.helloConnector());
     }
-
 }

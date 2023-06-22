@@ -1,4 +1,4 @@
 version: "1.0"
 name: "HelloWorldConnector"
 description: "Custom hello world Wavemaker connector"
-springConfigurationClass: "com.wavemaker.helloworld.HelloWorldConnectorConfiguration"
+springConfigurationClass: "com.nermamobileappcordova.helloworld.HelloWorldConnectorConfiguration"

@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
-import com.wavemaker.helloworld.HelloWorldConnector;
+import com.nermamobileappcordova.helloworld.HelloWorldConnector;
 
 @Service
 @Primary

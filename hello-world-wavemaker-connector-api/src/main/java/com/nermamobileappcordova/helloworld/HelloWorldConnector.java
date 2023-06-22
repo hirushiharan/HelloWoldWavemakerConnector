@@ -7,8 +7,6 @@ import com.wavemaker.runtime.connector.annotation.WMConnector;
         description = "Custom hello world Wavemaker connector")
 public interface HelloWorldConnector {
 
-    default String helloConnector(){
-        return "Hello World !";
-    }
+    public String helloConnector();
 
 }
