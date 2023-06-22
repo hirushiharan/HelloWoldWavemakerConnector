@@ -56,6 +56,17 @@
                 <artifactId>junit</artifactId>
                 <version>4.13</version>
             </dependency>
+            <dependency>
+                <groupId>com.wavemaker</groupId>
+                <artifactId>wavemaker-connector-api</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.wavemaker</groupId>
+                <artifactId>wavemaker-connector-impl</artifactId>
+                <version>1.0.0</version>
+                <scope>runtime</scope>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>
